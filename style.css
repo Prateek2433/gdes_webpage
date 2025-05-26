@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    background-color: #171d25;
+}
+
+#gdes_logo{
+    width: 350px;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 104px;
+    margin-top: 0;
+    border-bottom: 2px solid #DDA853;
+}
+
+.links{
+    margin: 10px;
+    color: #dcdedf;
+    text-decoration: none;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#nav_links{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+head{
+    margin-top: 0px;
+}
+
+.active{
+    color:#1a9fff;
+    text-decoration: underline;
+}
+
+.side-bar{
+    display: flex;
+    width: 300px;
+    display: block;
+    justify-content: center;
+    height: 673px;
+    border-right: 2px #DDA853 solid;
+}
+
+.recommended, .categories, .genre-list{
+    color: #dcdedf;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px;
+    letter-spacing: 0.5px;
+}
+
+.recommended-by, .category-items, .genre{
+    color:#DDA853;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.main-content{
+    display: flex;
+    background-color: #27548A;
+    border-bottom: #DDA853 2px solid;
+}
+
+.top-bar,  .top-bar-links{
+    background-color: #DDA853;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar{
+    margin: 10px;
+    height: 30px;
+}
+
+.top-bar-links{
+    margin-right: 30px;
+    color: #dcdedf;
+    text-decoration: none;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 5px;
+}
+
+.search-bar{
+    background-color:#dcdedf;
+    font-family: "Motiva Sans", Sans-serif;
+
+}
+
+.search{
+    background-color: #DDA853;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#play_button{
+
+    height: 20px;
+    background-color: #DDA853;
+    color: #dcdedf;
+}
+
+#about, #our-games-heading{
+    color:#DDA853;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.right-content{
+    width: 300px;
+}
+
+.middle-content{
+    border-right: 2px #DDA853 solid;
+}
+
+#description{
+    font-size: 16px;
+    color: #dcdedf;
+    padding: 10px;
+}
+
+.game-logo{
+    padding: 15px;
+}
+
+.game-name{
+    width: 30%;
+    text-align: center;
+    color:#dcdedf;
+    padding: 15px;
+}
+
+.bottom-links{
+    text-decoration: none;
+    color: #dcdedf;
+    width: 100%;
+    margin: 7%;
+}
+
+.bottom-bar{
+    background-color: #948979;
+    text-align: center;
+    height: 44px;
+    padding-top: 10px;
+}
+
+.bottom-links{
+    text-decoration: none;
+    font-size: 18px;
+    color: #dcdedf;
+    background-color: #948979;
+    text-decoration: underline;
+}
